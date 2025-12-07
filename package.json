@@ -1,0 +1,40 @@
+{
+  "name": "healthcare-messaging-platform",
+  "version": "1.0.0",
+  "description": "Secure doctor-patient messaging platform with encrypted messaging, appointment notes, and file attachments",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
+    "server:dev": "pnpm --filter server dev",
+    "server:build": "pnpm --filter server build",
+    "server:test": "pnpm --filter server test",
+    "client:dev": "pnpm --filter client dev",
+    "client:build": "pnpm --filter client build",
+    "client:test": "pnpm --filter client test",
+    "db:migrate": "pnpm --filter server db:migrate",
+    "db:seed": "pnpm --filter server db:seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sikandarmalik/healthcare-messaging-platform.git"
+  },
+  "keywords": [
+    "healthcare",
+    "messaging",
+    "telemedicine",
+    "doctor-patient",
+    "nestjs",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
