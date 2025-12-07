@@ -32,7 +32,7 @@ A secure doctor-patient messaging platform built with NestJS (backend) and React
 
 ### Demo Video
 
-📹 **[Watch 2-minute demo video](https://github.com/user-attachments/assets/ba0387c4-eb35-4473-8d7a-e5778babf711)**
+📹 **[Watch 2-minute demo video](https://github.com/user-attachments/assets/4fe27a1b-e083-4584-bb4f-8cc7fc24d3eb)**
 
 The demo showcases:
 - Patient and doctor authentication flows
